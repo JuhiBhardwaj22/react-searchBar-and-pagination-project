@@ -1,0 +1,64 @@
+.list-ul{
+  list-style-type:square;
+  font-size: larger;
+  font-weight: bold;
+}
+.search-input{
+  width: 300px;
+  height: 30px;
+  border-radius:10px;
+
+}
+
+.pagination{
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.page-item{
+  margin: 5px 5px;
+}
+.page-link{
+  color: #007bff; /* Link color */
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #007bff; /* Link border color */
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.page-link:hover{
+  background-color: #007bff; /* Hover background color */
+  color: #bd1313; /* Hover text color */
+}
+/* Previous and Next button styles */
+.pagination-button {
+  color: #007bff; /* Button color */
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #007bff; /* Button border color */
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin: 0 5px;
+
+}
+
+
+.page-link.active{
+  background-color: #aa335b; /* Active background color */
+  color: #fff; /* Active text color */
+  pointer-events: none;
+}
+.page-link.disabled{
+cursor: not-allowed;
+color: #ccc; /* Disabled button color */
+border-color: #ccc; /* Disabled button border color */
+pointer-events: none;
+}
+
+.pagination-button:hover{
+  background-color: #007bff; /* Hover background color */
+  color: #fff; /* Hover text color */
+  
+}
+
